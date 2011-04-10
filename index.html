@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Bug</title>
+		
+		<script type="text/javascript" src="cufon-yui.js"></script>
+		<script type="text/javascript" src="3dumb.cufonfonts.js"></script>
+		<script type="text/javascript">
+			Cufon.replace('.CufonFont');
+		</script>
+		
+	</head>
+	
+	<body>
+		<h1 class="CufonFont">With Font</h1>		
+		<p class="CufonFont">
+			Some text with font
+		</p>
+		
+		<h1>Without Font</h1>
+		<p>
+			Some text without font
+		</p>
+		
+		<hr />
+		
+		<p id="info">
+			Cufon version: 1.09i<br />
+			<script type="text/javascript">
+				document.write("Browser: \""+ navigator.userAgent + "\"");
+			</script>
+		</p>
+	
+	</body>
+</html>
